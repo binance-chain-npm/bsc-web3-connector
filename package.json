@@ -19,7 +19,8 @@
     "bsc"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git://binance-chain-npm/bsc-web3-connector.git"
   },
   "main": "dist/index.js",
   "module": "dist/bsc-connector.esm.js",
