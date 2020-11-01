@@ -23,7 +23,7 @@
     "url": "git://binance-chain-npm/bsc-web3-connector.git"
   },
   "main": "dist/index.js",
-  "module": "dist/bsc-connector.esm.js",
+  "module": "dist/web3-connector.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -31,14 +31,17 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "lint": "tsdx lint src"
+    "lint": "tsdx lint src",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@web3-react/abstract-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7",
-    "semantic-release": "^17.2.2",
     "tiny-warning": "^1.0.3",
     "tslib": "^2.0.3"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "semantic-release": "^17.2.2"
+  }
 }
