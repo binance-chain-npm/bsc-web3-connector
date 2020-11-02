@@ -27,6 +27,20 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         with:
           semantic_version: 17
+          branches: |
+            [
+              '+([0-9])?(.{+([0-9]),x}).x',
+              'main', 
+              'next-major', 
+              {
+                name: 'beta', 
+                prerelease: true
+              }, 
+              {
+                name: 'alpha', 
+                prerelease: true
+              }
+            ]
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_SEMANTIC_RELEASE }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
