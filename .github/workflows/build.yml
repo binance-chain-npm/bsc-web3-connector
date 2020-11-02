@@ -28,5 +28,5 @@ jobs:
         with:
           semantic_version: 17
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN_SEMANTIC_RELEASE }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN_SEMANTIC_RELEASE }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
