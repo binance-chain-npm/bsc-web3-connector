@@ -20,11 +20,13 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        run: |
-          yarn build
+        run: yarn build
 
       - name: Deploy to NPM
-        run: yarn semantic-release
+        id: semantic
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          semantic_version: 17
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN_SEMANTIC_RELEASE }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

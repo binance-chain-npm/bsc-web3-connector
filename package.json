@@ -1,9 +1,9 @@
 {
-  "name": "@binance-chain/web3-connector",
+  "name": "@binance-chain/bsc-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Bsc dApps",
   "keywords": [
     "react",
