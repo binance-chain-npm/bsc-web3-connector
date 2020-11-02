@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Bsc dApps",
   "keywords": [
     "react",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://binance-chain-npm/bsc-web3-connector.git"
+    "url": "git://github.com/binance-chain-npm/bsc-web3-connector.git"
   },
   "main": "dist/index.js",
   "module": "dist/web3-connector.esm.js",
@@ -37,11 +37,12 @@
   "dependencies": {
     "@web3-react/abstract-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7",
-    "tiny-warning": "^1.0.3",
-    "tslib": "^2.0.3"
+    "tiny-warning": "^1.0.3"
   },
   "license": "GPL-3.0-or-later",
   "devDependencies": {
-    "semantic-release": "^17.2.2"
+    "semantic-release": "^17.2.2",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.3"
   }
 }
