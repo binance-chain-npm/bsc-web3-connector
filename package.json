@@ -23,7 +23,7 @@
     "url": "https://github.com/binance-chain-npm/bsc-web3-connector.git"
   },
   "main": "dist/index.js",
-  "module": "dist/walletconnect-connector.esm.js",
+  "module": "dist/bsc-connector.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
